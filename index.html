@@ -20,7 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -106,13 +106,14 @@
     </figure>
   </div>
   <div class="row"> 
-     <figure class="col-sm-6">
-      <p>gifts</p>
-      <img src="http://i65.tinypic.com/2cdycfm.jpg"/>
+     <figure class="col-sm-4">
+      <img src="./img/1-square-web.jpg"/>
     </figure>
-    <figure class="col-sm-6">
-      <p>antique</p>
-      <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg"/>
+    <figure class="col-sm-4">
+      <img src="./img/2-square-web.jpg"/>
+    </figure>
+    <figure class="col-sm-4">
+      <img src="./img/3-square-web.jpg"/>
     </figure>
   </div>
     </section>
@@ -122,7 +123,7 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-sm-12">
-                    <div id='product-component-2f69c1a71dc'></div>
+<div id='product-component-0dee77d80bd'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 
@@ -156,13 +157,13 @@
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [8804796297],
-        node: document.getElementById('product-component-2f69c1a71dc'),
+        node: document.getElementById('product-component-0dee77d80bd'),
         moneyFormat: '%7B%7Bamount_with_comma_separator%7D%7D%20K%C4%8D',
         options: {
   "product": {
     "buttonDestination": "checkout",
     "variantId": "all",
-    "width": "380px",
+    "width": "580px",
     "contents": {
       "variantTitle": false,
       "description": false,
@@ -176,10 +177,32 @@
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
+          "max-width": "100%",
           "margin-left": "20px",
           "margin-bottom": "50px"
         }
+      },
+      "button": {
+        "background-color": "#42dca3",
+        "padding-left": "30px",
+        "padding-right": "30px",
+        ":hover": {
+          "background-color": "#3bc693"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#3bc693"
+        }
+      },
+      "title": {
+        "color": "#ffffff"
+      },
+      "price": {
+        "color": "#42dca3"
+      },
+      "compareAt": {
+        "font-size": "12px",
+        "color": "#42dca3"
       }
     }
   },
@@ -188,6 +211,16 @@
       "button": true
     },
     "styles": {
+      "button": {
+        "background-color": "#42dca3",
+        ":hover": {
+          "background-color": "#3bc693"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#3bc693"
+        }
+      },
       "footer": {
         "background-color": "#ffffff"
       }
@@ -207,11 +240,32 @@
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
+      },
+      "button": {
+        "background-color": "#42dca3",
+        "padding-left": "30px",
+        "padding-right": "30px",
+        ":hover": {
+          "background-color": "#3bc693"
+        },
+        "border-radius": "5px",
+        ":focus": {
+          "background-color": "#3bc693"
+        }
       }
     }
   },
   "toggle": {
     "styles": {
+      "toggle": {
+        "background-color": "#42dca3",
+        ":hover": {
+          "background-color": "#3bc693"
+        },
+        ":focus": {
+          "background-color": "#3bc693"
+        }
+      },
       "count": {
         "color": "#ffffff",
         ":hover": {
@@ -239,8 +293,6 @@
 })();
 /*]]>*/
 </script>
-                   
-                </div>
             </div>
         </div>
     </section>
