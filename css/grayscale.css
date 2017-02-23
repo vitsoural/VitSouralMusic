@@ -221,6 +221,7 @@ a:focus {
   padding-top: 100px;
 }
 .download-section {
+  align-items: center;
   width: 100%;
   padding: 50px 0;
   color: white;
