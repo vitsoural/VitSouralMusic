@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Start Bootstrap version - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -221,7 +221,6 @@ a:focus {
   padding-top: 100px;
 }
 .download-section {
-  align-items: center;
   width: 100%;
   padding: 50px 0;
   color: white;
@@ -305,4 +304,16 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+#technicke-udaje
+{
+  font-size: 18px;
+  line-height: 1.5;
+  list-style-type: square;
+  list-style-position: inside;
+}
+p.technicke
+{
+  color: #42DCA3;
+  margin-top: 100px;
 }
