@@ -21,6 +21,7 @@
 
     <!-- Theme CSS -->
     <link href="css/grayscale.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +42,7 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
+                    <img src="./img/vsm-logo-web.png"/>
                 </a>
             </div>
 
@@ -91,18 +92,20 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>O náramku</h2>
-                <p>Je mi ctí vám představit první kousek do sbírky merche VitSouralMusic!</p>
-                <p>Design by Marek Prchal, aka <a href="https://www.facebook.com/maraartwork">Lobster</a></p>
+                <p>Někteří říkají, že vám náramek zvýší IQ o deset. Druzí tvrdí, že vám náramek pomůže objevit své hudební nadání. Zatímco pracuji na ověření těchto hypotéz, můžu vám zaručit, že s tímto náramkem nebudete "out".</p>
+
+
+                <p>Design by <a href="https://www.facebook.com/maraartwork">Marek Prchal</a></p>
             </div>
 <div class="row">
      <figure class="col-sm-4">
-      <img src="http://i67.tinypic.com/23mqyyq.jpg"/>
+      <img src="./img/naramek-front-zlura-web.jpg"/>
     </figure>
     <figure class="col-sm-4">
-      <img src="http://i65.tinypic.com/2cdycfm.jpg"/>
+      <img src="./img/vizualizace-naramku-web.jpg"/>
     </figure>
     <figure class="col-sm-4">
-      <img src="http://i64.tinypic.com/2j315cn.jpg"/>
+      <img src="./img/naramek-back-zluta-web.jpg"/>
     </figure>
   </div>
   <div class="row"> 
@@ -116,6 +119,17 @@
       <img src="./img/3-square-web.jpg"/>
     </figure>
   </div>
+        <div class="row" id="div-technicke">
+            <div class="col-lg-8 col-lg-offset-2">
+                  <p class="technicke">Technické údaje:</p>
+                <ul id="technicke-udaje">
+                    <li>Materiál: Silikon</li>
+                    <li>Rozměry: 202x12x2mm</li>
+                    <li>Barva náramku: Žlutá</li>
+                    <li>Barva potisku: Lesklá černá + lesklá žlutá</li>
+                </ul>
+            </div>
+
     </section>
 
     <!-- Download Section -->
@@ -123,10 +137,9 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-sm-12">
-<div id='product-component-0dee77d80bd'></div>
+<div id='product-component-0dee77d80bd' style="margin:auto;">
 <script type="text/javascript">
 /*<![CDATA[*/
-
 (function () {
   var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
   if (window.ShopifyBuy) {
@@ -138,7 +151,6 @@
   } else {
     loadScript();
   }
-
   function loadScript() {
     var script = document.createElement('script');
     script.async = true;
@@ -146,14 +158,12 @@
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
     script.onload = ShopifyBuyInit;
   }
-
   function ShopifyBuyInit() {
     var client = ShopifyBuy.buildClient({
       domain: 'vit-soural-music.myshopify.com',
       apiKey: '4ef0d3e0ed36079245d8cfa37aa5236b',
       appId: '6',
     });
-
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: [8804796297],
@@ -293,6 +303,8 @@
 })();
 /*]]>*/
 </script>
+
+</div>
             </div>
         </div>
     </section>
@@ -303,17 +315,18 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Kontakt</h2>
                 <p>Pokud máte jakékoliv otázky ohledně náramku, stačí mi napsat na <a href="mailto:soural.music@gmail.com">soural.music@gmail.com</a></p>
+                <p>Druhý produkt, na který se můžete těšit, bude TRIČKO VITSOURALMUSIC!</p>
        
                
                 <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                        <a href="https://facebook.com/VitSouralMusic/" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                     </li>
                     <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                        <a href="https://instagram.com/vitsoural" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
                     </li>
                     <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                        <a href="https://youtube.com/VitSouralMusic" class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">YouTube</span></a>
                     </li>
                 </ul>
             </div>
@@ -335,9 +348,6 @@
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
