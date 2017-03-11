@@ -317,3 +317,6 @@ p.technicke
   color: #42DCA3;
   margin-top: 100px;
 }
+#technicke-udaje li {
+  list-style-type: none;
+}
